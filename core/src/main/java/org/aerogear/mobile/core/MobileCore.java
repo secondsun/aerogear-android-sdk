@@ -4,7 +4,6 @@ import static org.aerogear.mobile.core.utils.SanityCheck.nonNull;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
@@ -24,6 +23,7 @@ import org.aerogear.mobile.core.http.HttpServiceModule;
 import org.aerogear.mobile.core.http.OkHttpServiceModule;
 import org.aerogear.mobile.core.logging.Logger;
 import org.aerogear.mobile.core.logging.LoggerAdapter;
+import java.util.HashMap;
 
 import okhttp3.OkHttpClient;
 
