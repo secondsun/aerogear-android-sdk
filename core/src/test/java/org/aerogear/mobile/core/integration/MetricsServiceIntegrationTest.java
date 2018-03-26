@@ -5,6 +5,7 @@ import static org.junit.Assert.assertNull;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 
+import org.aerogear.mobile.core.AeroGearTestRunner;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -19,7 +20,7 @@ import org.aerogear.mobile.core.metrics.Metrics;
 import org.aerogear.mobile.core.metrics.MetricsService;
 import org.aerogear.mobile.core.unit.metrics.MetricsServiceTest;
 
-@RunWith(RobolectricTestRunner.class)
+@RunWith(AeroGearTestRunner.class)
 @SmallTest
 public class MetricsServiceIntegrationTest {
 
